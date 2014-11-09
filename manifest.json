@@ -1,0 +1,14 @@
+{
+  "name": "Myo Imgur 3",
+  "description": "Interactive imgur mode for the myo arm band",
+  "version": "2.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["mystyles.css", "bootstrap.css"],
+      "js": ["jquery.min.js", "functions.js", "toggling.js", "myoimgur.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}

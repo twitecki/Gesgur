@@ -1,0 +1,115 @@
+body {
+	overflow-y: scroll;
+}
+
+.overlay {
+	height:100%;
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:1 !important;
+	background-color:black;
+}
+
+.my-nav {
+	color: #2b2b2b;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.navbar-inner {
+	background-color: #2b2b2b;
+}
+
+.mycontainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.leftDiv {
+	float: left;
+	margin: 0px 6px 15px 25px;
+	height: auto;
+	width: 55%;
+	display: inline-block;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #2b2b2b;
+	background-color: #2b2b2b;
+	border-radius: 10px;
+	overflow-y: scroll;
+}
+
+.ctrl {
+	height: 60%;
+	width: 30%;
+	max-height: 60%;
+	max-width: 30%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #2b2b2b;
+	background-color: #2b2b2b;
+	border-radius: 10px;
+	position: fixed;
+	top: 15%;
+	left: 65%;
+}
+
+.img-table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.table-img {
+	height: auto;
+	width: auto;
+	max-height: 60px;
+	max-width: 80px;
+	padding: 6px 6px 6px 6px;
+}
+
+.active {
+	border-color: #85BF25;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+}
+.active-red {
+	border-color: #EE4444;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+.ctrl-logo {
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 150px;
+	max-width: 300px;
+}
+
+.mainLogo {
+	margin-top: 20px;
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 75px;
+	max-width: 150px;
+}
+
+.image-container {
+	width: 105%;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 5px 5px 5px;
+}
