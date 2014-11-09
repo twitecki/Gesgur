@@ -1,5 +1,3 @@
-alert("running script");
-
 //Remove the top bar because it isn't needed 
 removeElement('topbar');
 
@@ -70,7 +68,8 @@ img22.setAttribute('id', 'img22');
 col22.appendChild(img22);
 var col23 = document.createElement('td');
 var img23 = document.createElement('img');
-img23.setAttribute('src', 'http://i.imgur.com/MMX6M3V.png');
+//img23.setAttribute('src', 'http://i.imgur.com/MMX6M3V.png');
+img23.setAttribute('src', 'http://i.imgur.com/adEtBMR.png');
 img23.setAttribute('class', 'table-img');
 img23.setAttribute('id', 'img23');
 col23.appendChild(img23);
@@ -138,5 +137,3 @@ controlPanel.appendChild(center);
 var content = document.getElementById('content');
 content.appendChild(controlPanel);
 
-
-alert("ran script");

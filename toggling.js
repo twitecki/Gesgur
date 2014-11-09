@@ -17,6 +17,12 @@ function redtog(id, ctoggle) {
 		}
 	}
 }
+function deactivateRed(id) {
+	$(id).removeClass('active-red');
+}
+function deactivateGreen(id) {
+	$(id).removeClass('active');
+}
 canToggle11 = true;
 canToggle12 = true;
 canToggle13 = true;
@@ -75,11 +81,19 @@ $(document).keydown(function(e) {
     	
         tog("#img21", canToggle21);
         canToggle21 = false;
+        deactivateGreen('#img11');
+        canToggle11 = true;
+        deactivateRed('#img12');
+        canToggle12 = true;
     }
     if (key == 39) {
     	
         tog("#img22", canToggle22);
         canToggle22 = false;
+        deactivateGreen('#img11');
+        canToggle11 = true;
+        deactivateRed('#img12');
+        canToggle12 = true;
     }
     if (key == 51) {
         tog("#img41", canToggle41);
