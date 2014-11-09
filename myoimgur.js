@@ -94,7 +94,7 @@ col32.appendChild(img32);
 var col33 = document.createElement('td');
 var img33 = document.createElement('img');
 img33.setAttribute('src', 'http://i.imgur.com/8Xk14qI.png');
-img33.setAttribute('class', 'table-img');
+img33.setAttribute('class', 'table-img active');
 img33.setAttribute('id', 'img33');
 col33.appendChild(img33);
 row3.appendChild(col31);
